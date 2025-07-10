@@ -268,9 +268,20 @@ html {
 }
 
 .viewer-container .preview .inner .close-button {
-    color: #fff;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #000;
     cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    height: 30px;
+    line-height: 30px;
     position: absolute;
-    right: 5px;
-    top: 0
+    right: 10px;
+    text-align: center;
+    top: 10px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 30px
 }
